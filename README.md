@@ -8,9 +8,9 @@ This repository contains the text, code, and data for the manusctipt:
 
 ```
 .
-├── manuscript              # All files to recreate the manuscript and supplementary material    
-├── analysis                # Scripts to recreate all our analyses
-└── data                    # Matrices and intermediate files to run all our analyses 
+├── analysis        # Scripts to recreate all our analyses    
+├── data            # Matrices and intermediate files to run all our analyses               
+└── manuscript      # All files to recreate the manuscript and supplementary material
 
 ```
 
