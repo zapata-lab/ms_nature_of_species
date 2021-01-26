@@ -1,0 +1,21 @@
+species,morpho_trait,min,max
+herrerae ,LAMLEN,60,100
+pendula ,LAMLEN,100,250
+herrerae ,LAMWID,15,25
+pendula ,LAMWID,25,60
+herrerae ,INFLLEN,60,150
+pendula ,INFLLEN,290,310
+herrerae ,PEDLEN,3,8
+pendula ,PEDLEN,3,10
+herrerae ,OVALEN,4,5
+pendula ,OVALEN,2,2.5
+herrerae ,CALYTUBLEN,0.5,1
+pendula ,CALYTUBLEN,0.5,1.5
+herrerae ,CALLOBLEN,2,3
+pendula ,CALLOBLEN,1.5,2.5
+herrerae ,PETLEN,8.5,9.5
+pendula ,PETLEN,7,8
+herrerae ,FILLEN,6.5,7.5
+pendula ,FILLEN,6.5,7.5
+herrerae ,STYLEN,7.5,8.5
+pendula ,STYLEN,6.5,7.5

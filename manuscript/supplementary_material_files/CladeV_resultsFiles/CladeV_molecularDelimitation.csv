@@ -1,0 +1,110 @@
+SampleName,taxon,country,Elevation,Latitude,Longitude,RMavDemes,mPTPgroups,NMMgroups,STRUCTURE,morphologicalSampling,F_MISS,chosenForBFD
+CC2_E_rubra_Plate4,rubra,Chile,10,-41.39527778,-73.83333333,deme2,group10,group2,group1,x,0.0866995,1
+FZ100_E_leucantha_Plate4,leucantha,Chile,171,-39.96055556,-73.34777778,deme1,group3,group3,group2,x (leaves only),0.0197044,1
+FZ101_E_rubra_Plate5,rubra,Chile,56,-41.3166667,-72.9833333,deme2,group10,group2,group1,x (leaves only),0.197044,0
+FZ102_E_rubra_Plate5,rubra,Chile,309,-41.1333333,-72.4166667,deme2,group10,group2,group1,x (leaves only),0.203941,0
+FZ103_E_rubra_Plate5,rubra,Chile,204,-41.1363889,-72.3991666,deme2,group10,group2,group1,x,0.147783,0
+FZ104_E_rosea_Plate5,rosea,Chile,908,-41.1383333,-72.5355555,deme2,group9,group1,group1,x (leaves only),0.365517,0
+FZ105_E_rosea_Plate5,rosea,Chile,922,-41.14027,-72.53472,deme2,group9,group1,group1,x (leaves only),0.338916,0
+FZ106_E_rubra_Plate4,rubra,Chile,62,-41.22638889,-72.63833333,deme2,group10,group2,group1,x,0.0906404,0
+FZ107_E_rubra_Plate5,rubra,Chile,201,-39.4955555,-72.1541667,deme2,group10,group2,group1,x,0.424631,0
+FZ110_E_rubra_Plate5,rubra,Chile,232,-39.6458333,-72.3208334,deme2,group10,group2,group1,x (leaves only),0.102463,0
+FZ112_E_alpina_Plate5,alpina,Chile,1050,-40.77527,-72.20388,deme2,group10,group2,group1,x (leaves only),0.17931,0
+FZ113_E_rosea_Plate5,rosea,Chile,721,-40.77,-72.27111,deme2,group9,group1,group1,x (leaves only),0.221675,0
+FZ114_E_rosea_Plate4,rosea,Chile,721,-40.77,-72.27111111,deme2,group9,group1,group1,x (leaves only),0.044335,0
+FZ115_E_rosea_Plate5,rosea,Chile,721,-40.77,-72.27111,deme2,group9,group1,group1,x (leaves only),0.205911,0
+FZ116_E_leucantha_Plate1,leucantha,Chile,90,-39.99833333,-73.00055556,deme1,group3,group4,group2,x (leaves only),0.485714,0
+FZ119_E_rubra_Plate4,rubra,Chile,954,-33.72916667,-70.47055556,deme2,group10,group2,group1,x,0.153695,1
+FZ125_E_revoluta_Plate4,revoluta,Chile,1642,-32.99583333,-71.02944444,deme1,group1,group3,group2,x (leaves only),0.0640394,0
+FZ126_E_myrtoidea_Plate4,myrtoidea,Chile,1650,-32.99305556,-71.02944444,deme1,group1,group3,group2,x (leaves only),0.0453202,0
+FZ330_E_myrtoidea_Plate4,myrtoidea,Chile,1945,-33.3105556,-70.3252778,deme1,group1,group3,group2,x (leaves only),0.0295567,0
+FZ331_E_alpina_Plate4,alpina,Chile,2033,-33.30055556,-70.31805556,deme1,group10,group4,group2,x,0.0256158,1
+FZ332_E_alpina_Plate5,alpina,Chile,2033,-33.30055,-70.31805,deme1,group10,group4,group2,x,0.105419,0
+FZ333_E_myrtoidea_Plate4,myrtoidea,Chile,2034,-33.3005556,-70.3180556,deme1,group1,group3,group2,x (leaves only),0.0916256,0
+FZ334_E_alpina_Plate5,alpina,Chile,2034,-33.30055,-70.31805,deme1,group10,group4,group1,x,0.301478,0
+FZ335_E_alpina_Plate5,alpina,Chile,2037,-33.3,-70.31777,deme2,group10,group4,group1,x (leaves only),0.619704,0
+FZ336_E_alpina_Plate5,alpina,Chile,2008,-33.29666,-70.315,deme1,group2,group4,group2,x (leaves only),0.106404,1
+FZ337_E_alpina_Plate5,alpina,Chile,2005,-33.2966666,-70.315,deme1,group2,group4,group2,x,0.325123,0
+FZ338_E_alpina_Plate4,alpina,Chile,1980,-33.29638889,-70.31444444,deme2,group10,group2,group1,x,0.104433,1
+FZ347_E_myrtoidea_Plate1,myrtoidea,Chile,2086,-33.3002778,-70.3177778,deme1,group1,group3,group2,x (leaves only),0.0600985,0
+FZ348_E_myrtoidea_Plate4,myrtoidea,Chile,2060,-33.3027778,-70.3197223,deme1,group1,group3,group2,x (leaves only),0.0374384,0
+FZ352_E_myrtoidea_Plate5,myrtoidea,Chile,1901,-33.3177778,-70.3255556,deme1,group1,group3,group2,x (leaves only),0.0729064,0
+FZ359_E_revoluta_Plate4,revoluta,Chile,399,-37.63666667,-72.78555556,deme1,group1,group3,group2,x,0.0334975,1
+FZ360_E_revoluta_Plate1,revoluta,Chile,375,-37.6483333,-72.7597222,deme1,group1,group4,group2,x,0.340887,0
+FZ362_E_leucantha_Plate4,leucantha,Chile,773,-37.76861,-72.80083,deme3,group6,group5,group1,x,0.689655,0
+FZ363_E_leucantha_Plate5,leucantha,Chile,773,-37.60194,-72.80083,deme3,group6,group5,group1,x,0.441379,0
+FZ365_E_revoluta_Plate4,revoluta,Chile,773,-37.6019444,-72.8008333,deme1,group1,group3,group2,x (leaves only),0.0413793,0
+FZ366_E_rosea_Plate4,rosea,Chile,774,-37.60166667,-72.80083333,deme2,group6,group6,group1,x,0.0187192,0
+FZ367_E_leucantha_Plate4,leucantha,Chile,775,-37.60194,-72.80083,deme3,group6,group5,group1,x,0.0916256,1
+FZ368_E_leucantha_Plate5,leucantha,Chile,775,-37.60194,-72.80083,deme3,group6,group5,group1,x,0.0699507,1
+FZ379_E_rosea_Plate1,rosea,Chile,984,-37.81,-73.05666667,deme2,group9,group1,group1,x,0.115271,0
+FZ383_E_leucantha_Plate1,leucantha,Chile,707,-37.81305556,-73.13722222,deme1,group3,group4,group2,x,0.533005,0
+FZ384_E_leucantha_Plate4,leucantha,Chile,706,-37.81277,-73.1375,deme1,group3,group4,group2,x,0.0669951,1
+FZ385_E_leucantha_Plate4,leucantha,Chile,707,-37.8130556,-73.1372222,deme1,group3,group4,group2,x,0.0453202,0
+FZ390_E_leucantha_Plate4,leucantha,Chile,132,-37.6813889,-73.2888889,deme1,group3,group4,group2,x,0.0472906,0
+FZ395_E_rosea_Plate4,rosea,Chile,1662,-36.9075,-71.41138889,deme2,group9,group1,group1,x,0.0295567,0
+FZ400_E_alpina_Plate4,alpina,Chile,1912,-36.90527778,-71.40333333,deme2,group10,group2,group1,x,0.0807882,0
+FZ406_E_rubra_Plate1,rubra,Chile,803,-37.39333333,-71.46277778,deme2,group10,group2,group1,x,0.0866995,0
+FZ413_E_revoluta_Plate5,revoluta,Chile,781,-37.3930555,-71.4569444,deme1,group1,group3,group2,x (leaves only),0.0561576,0
+FZ416_E_alpina_Plate5,alpina,Chile,1256,-37.37805556,-71.36222222,deme2,group10,group1,group1,x,0.560591,0
+FZ422_E_alpina_Plate5,alpina,Chile,1259,-37.37805556,-71.36222222,deme2,group10,group2,group1,x,0.22266,0
+FZ424_E_alpina_Plate4,alpina,Chile,1255,-37.37805556,-71.36222222,deme2,group10,group2,group1,x,0.062069,0
+FZ425_E_rubra_Plate4,rubra,Chile,798,-38.53947222,-71.67588889,deme2,group10,group2,group1,x,0.0650246,0
+FZ426_E_rosea_Plate4,rosea,Chile,798,-38.53944,-71.67583,deme2,group9,group1,group1,x,0.0837438,0
+FZ427_E_rosea_Plate4,rosea,Chile,798,-38.53944444,-71.67583333,deme2,group9,group1,group1,x,0.0295567,0
+FZ428_E_rosea_Plate4,rosea,Chile,1091,-38.57916,-71.6275,deme2,group9,group1,group1,x,0.0492611,1
+FZ429_E_florida_Plate1,florida,Chile,1049,-38.5769445,-71.6288889,deme3,group5,group5,group1,x (leaves only),0.0827586,0
+FZ430_E_florida_Plate4,florida,Chile,1055,-38.5769445,-71.6288889,deme3,group5,group5,group1,x (leaves only),0.0985222,0
+FZ431_E_florida_Plate1,florida,Chile,1055,-38.57694444,-71.62888889,deme3,group5,group5,group1,x,0.725123,0
+FZ432_E_florida_Plate4,florida,Chile,1070,-38.5775,-71.6258334,deme3,group5,group5,group1,x,0.238424,0
+FZ433_E_florida_Plate4,florida,Chile,1070,-38.5775,-71.6258334,deme3,group5,group5,group1,x,0.0857143,1
+FZ434_E_florida_Plate4,florida,Chile,1100,-38.5772223,-71.6255556,deme3,group5,group5,group1,x,0.08867,0
+FZ435_E_florida_Plate4,florida,Chile,1121,-38.5772223,-71.6236111,deme3,group5,group5,group1,x,0.0906404,1
+FZ436_E_florida_Plate4,florida,Chile,1149,-38.5775,-71.6227778,deme3,group8,group6,group1,x,0.00985222,1
+FZ437_E_florida_Plate4,florida,Chile,1149,-38.5775,-71.6227778,deme3,group8,group6,group1,x,0.0738916,0
+FZ438_E_florida_Plate4,florida,Chile,1164,-38.57777778,-71.62277778,deme3,group8,group6,group1,x,0.0334975,0
+FZ439_E_rubra_Plate1,rubra,Chile,1165,-38.5777778,-71.6227778,deme2,group9,group1,group1,x,0.0433498,0
+FZ440_E_rubra_Plate5,rubra,Chile,1166,-38.57777778,-71.62305556,deme2,group9,group1,group1,x,0.0305419,0
+FZ441_E_rubra_Plate4,rubra,Chile,1130,-38.5777778,-71.6225,deme2,group9,group1,group1,x,0.0167488,0
+FZ442_E_rubra_Plate4,rubra,Chile,1130,-38.5780556,-71.6225,deme2,group9,group1,group1,x,0.0128079,1
+FZ443_E_rubra_Plate4,rubra,Chile,1130,-38.5777778,-71.6225,deme2,group9,group1,group1,x,0.017734,0
+FZ444_E_rubra_Plate4,rubra,Chile,1130,-38.57805556,-71.62222222,deme2,group9,group1,group1,x,0.0128079,1
+FZ445_E_rubra_Plate4,rubra,Chile,1130,-38.5780556,-71.6222223,deme2,group9,group1,group1,x,0.0187192,0
+FZ446_E_rubra_Plate4,rubra,Chile,1140,-38.5777778,-71.6225,deme2,group9,group1,group1,x,0.0167488,0
+FZ447_E_rubra_Plate4,rubra,Chile,1150,-38.5780556,-71.6225,deme2,group9,group1,group1,x,0.0187192,0
+FZ448_E_florida_Plate4,florida,Chile,1156,-38.5777778,-71.6222223,deme3,group8,group6,group1,x,0.0719212,0
+FZ449_E_florida_Plate4,florida,Chile,1156,-38.5777778,-71.6222223,deme3,group8,group6,group1,x,0.0128079,1
+FZ450_E_florida_Plate5,florida,Chile,1156,-38.5777778,-71.6222223,deme3,group8,group6,group1,x,0.0147783,0
+FZ451_E_florida_Plate4,florida,Chile,1156,-38.5777778,-71.6225,deme3,group8,group6,group1,x,0.0118227,0
+FZ452_E_florida_Plate4,florida,Chile,1156,-38.5777778,-71.6225,deme3,group7,group6,group1,x,0.0256158,1
+FZ454_E_revoluta_Plate4,revoluta,Chile,664,-38.3477777,-71.8491666,deme1,group1,group3,group2,x (leaves only),0.0344828,0
+FZ456_E_rosea_Plate1,rosea,Chile,1056,-38.28666,-71.77222,deme2,group9,group1,group1,x,0.0325123,0
+FZ457_E_rosea_Plate4,rosea,Chile,1068,-38.25333333,-71.74861111,deme2,group9,group1,group1,x,0.0896552,0
+FZ466_E_rosea_Plate4,rosea,Chile,1328,-35.46611111,-70.97725,deme2,group9,group1,group1,x,0.0453202,0
+FZ467_E_rosea_Plate5,rosea,Chile,1329,-35.46583,-70.97722,deme2,group9,group1,group1,x,0.0502463,0
+FZ477_E_rosea_Plate4,rosea,Chile,1661,-35.59666667,-71.0175,deme2,group9,group1,group1,x,0.0581281,0
+FZ478_E_rosea_Plate5,rosea,Chile,1660,-35.59666,-71.0175,deme2,group9,group1,group1,x,0.0394089,1
+FZ479_E_alpina_Plate4,alpina,Chile,1913,-35.59972222,-71.01166667,deme2,group9,group1,group1,x,0.017734,0
+FZ489_E_alpina_Plate4,alpina,Chile,1921,-35.59944444,-71.01,deme2,group9,group1,group1,x,0.0344828,1
+FZ491_E_revoluta_Plate1,revoluta,Chile,438,-35.65194444,-71.25138889,deme1,group1,group3,group2,x,0.0256158,0
+FZ495_E_revoluta_Plate4,revoluta,Chile,437,-35.6477777,-71.2552778,deme1,group1,group3,group2,x,0.0315271,0
+FZ496_E_myrtoidea_Plate4,myrtoidea,Chile,342,-35.9208334,-71.3677778,deme1,group1,group3,group2,x,0.0334975,0
+FZ497_E_myrtoidea_Plate4,myrtoidea,Chile,342,-35.92055556,-71.36777778,deme1,group1,group3,group2,x,0.0315271,0
+FZ499_E_revoluta_Plate4,revoluta,Chile,266,-35.9697223,-71.4836111,deme1,group1,group3,group2,x,0.0236453,0
+FZ500_E_rubra_Plate4,rubra,Chile,528,-36.60027778,-71.46916667,deme2,group10,group2,group1,x,0.053202,0
+FZ501_E_revoluta_Plate4,revoluta,Chile,530,-36.6005556,-71.4691667,deme1,group1,group3,group2,x (leaves only),0.302463,0
+FZ503_E_revoluta_Plate4,revoluta,Chile,529,-36.6002778,-71.4691667,deme1,group1,group3,group2,x (leaves only),0.026601,0
+FZ510_E_rosea_Plate4,rosea,Chile,725,-40.77027778,-72.27111111,deme2,group9,group1,group1,x,0.13202,1
+FZ518_E_alpina_Plate4,alpina,Chile,1130,-40.77444444,-72.20027778,deme2,group10,group2,group1,x,0.0945813,1
+FZ523_E_alpina_Plate1,alpina,Chile,1276,-40.7780556,-72.1891666,deme2,group10,group2,group1,x,0.100493,0
+FZ527_E_rosea_Plate1,rosea,Chile,592,-40.20777778,-73.4,deme1,group4,group4,group2,x,0.0689655,1
+FZ532_E_rosea_Plate4,rosea,Chile,900,-40.17722222,-73.44055556,deme2,group9,group1,group1,x,0.0394089,1
+FZ533_E_rubra_Plate1,rubra,Chile,35,-39.67555556,-73.35138889,deme2,group10,group2,group1,x,0.0660099,0
+FZ542_E_myrtoidea_Plate1,myrtoidea,Chile,920,-33.72972222,-70.47083333,deme1,group1,group4,group2,x,0.546798,0
+FZ544_E_myrtoidea_Plate4,myrtoidea,Chile,920,-33.73,-70.4711111,deme1,group1,group3,group2,x,0.0374384,1
+FZ92_E_alpina_Plate5,alpina,Chile,2085,-33.30333,-70.32027,deme1,group2,group4,group2,x (leaves only),0.138916,1
+FZ94_E_alpina_Plate5,alpina,Chile,2165,-33.2961111,-70.3141667,deme2,group10,group2,group1,x (leaves only),0.0975369,0
+FZ97_E_rubra_Plate5,rubra,Chile,27,-39.96472222,-73.56916667,deme2,group10,group2,group1,x,0.343842,0
+FZ98_E_rubra_Plate5,rubra,Chile,12,-39.9397222,-73.5825,deme2,group10,group2,group1,x (leaves only),0.134975,0
+PHV318_E_rubra_Plate4,rubra,Chile,700,-40.68333,-71.7,deme2,group10,group1,group1,,0.82069,0
+PHV336_E_alpina_Plate4,alpina,Chile,140,-51.56794,-72.61786,deme2,group10,group2,group1,,0.170443,0

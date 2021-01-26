@@ -1,0 +1,40 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Oct 13 09:01:17 2020]
+[!
+>Data file = miss75.concat.nex
+]
+	Translate
+		1 E_alpina,
+		2 E_angustifolia,
+		3 E_bifida,
+		4 E_discolor,
+		5 E_farinacea,
+		6 E_florida,
+		7 E_herrerae,
+		8 E_hypoglauca,
+		9 E_illinita,
+		10 E_laevis,
+		11 E_ledifolia,
+		12 E_leucantha,
+		13 E_megapotamica,
+		14 E_micrantha,
+		15 E_millegrana,
+		16 E_myrtilloides,
+		17 E_myrtoidea,
+		18 E_paniculata,
+		19 E_pendula,
+		20 E_petrophila,
+		21 E_piurensis,
+		22 E_polifolia,
+		23 E_resinosa,
+		24 E_reticulata,
+		25 E_revoluta,
+		26 E_rosea,
+		27 E_rubra,
+		28 E_schreiteri,
+		29 E_tucumanensis,
+		30 Valdivia_gayana
+		;
+tree 'PAUP_1' = [&U] (1:100,(((((2:100,9:100)91:91,(((3:100,13:100)100:100,(8:100,29:100)100:100)98:98,(5:100,((10:100,20:100)100:100,11:100)46:46)27:27)100:100)100:100,((((4:100,(21:100,23:100)100:100)100:100,((18:100,24:100)100:100,28:100)77:77)100:100,((7:100,19:100)100:100,((14:100,15:100)100:100,30:100)60:60)100:100)100:100,(16:100,22:100)100:100)100:100)100:100,26:100)54:54,(6:100,(12:100,(17:100,25:100)100:100)100:100)48:48)99:99,27:100)100;
+End;

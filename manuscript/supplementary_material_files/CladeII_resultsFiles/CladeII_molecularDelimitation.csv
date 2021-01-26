@@ -1,0 +1,16 @@
+SampleName,taxon,country,Elevation,Latitude,Longitude,RMavDemes,mPTPgroups,NMMgroups,STRUCTURE,morphologicalSampling,F_miss,chosenForBFD
+AN414_E_pendula_Plate3,pendula,Colombia,2400,5.833333333,-72.96666667,deme1,species2,group1,group1,x,0.100544,1
+FZ90_E_pendula_Plate3,pendula,Colombia,2660,4.591666667,-74,deme1,species2,group1,group1,x (leaves only),0.100544,1
+FZ186_E_herrerae_Plate1,herrerae,Peru,2768,-13.46777778,-72.49519444,deme2,species1,group3,group2,x,0.0286916,1
+FZ190_E_herrerae_Plate1,herrerae,Peru,2820,-13.46616667,-72.49694444,deme2,species1,group3,group2,x,0.0387089,1
+FZ206_E_pendula_Plate1,pendula,Peru,3100,-6.872138889,-78.11163889,deme3,species3,group2,group1,x,0.412318,1
+FZ207_E_pendula_Plate3,pendula,Peru,3019,-6.860111111,-78.11513889,deme3,species3,group2,group1,x,0.0702449,1
+FZ228_E_pendula_Plate3,pendula,Peru,2540,-7.266611111,-78.51205556,deme3,species4,group2,group1,x,0.0519416,1
+FZ244_E_pendula_Plate3,pendula,Peru,2118,-7.072111111,-79.04830556,deme3,species4,group2,group1,x,0.0291862,1
+FZ187_E_herrerae_Plate3,herrerae,Peru,2794,-13.46630556,-72.49686111,deme2,species1,group3,group2,x (leaves only),0.192184,0
+FZ188_E_herrerae_Plate3,herrerae,Peru,2805,-13.46625,-72.49680556,deme2,species1,group3,group2,x (leaves only),0.021395,0
+FZ189_E_herrerae_Plate3,herrerae,Peru,2810,-13.46583333,-72.49677778,deme2,species1,group3,group2,x (leaves only),0.11724,0
+FZ227_E_pendula_Plate3,pendula,Peru,2306,-6.823444444,-77.95033333,deme3,species3,group2,group1,x (leaves only),0.0426663,0
+FZ230_E_pendula_Plate3,pendula,Peru,2540,-7.266611111,-78.51205556,deme3,species4,group2,group1,x,0.124042,0
+FZ231_E_pendula_Plate3,pendula,Peru,2540,-7.266611111,-78.51205556,deme3,species4,group2,group1,x,0.0244868,0
+FZ235_E_pendula_Plate3,pendula,Peru,2007,-7.320944444,-78.80055556,deme3,species4,group2,group1,x,0.032278,0

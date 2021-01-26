@@ -1,0 +1,81 @@
+species,morpho_trait,min,max
+angustifolia ,LAMLEN,20,80
+bifida,LAMLEN,40,75
+farinacea,LAMLEN,30,80
+hypoglauca,LAMLEN,20,35
+illinita,LAMLEN,30,70
+laevis ,LAMLEN,25,60
+ledifolia ,LAMLEN,20,35
+megapotamica,LAMLEN,18,50
+petrophila ,LAMLEN,40,70
+tucumanensis,LAMLEN,40,80
+angustifolia ,LAMWID,4,15
+bifida,LAMWID,8,25
+farinacea,LAMWID,5,25
+hypoglauca,LAMWID,7,16
+illinita,LAMWID,12,30
+laevis ,LAMWID,7,25
+ledifolia ,LAMWID,3,7
+megapotamica,LAMWID,5,15
+petrophila ,LAMWID,15,23
+tucumanensis,LAMWID,15,25
+angustifolia ,CALYTUBLEN,1,1.5
+bifida,CALYTUBLEN,0.5,1.5
+farinacea,CALYTUBLEN,2,3
+hypoglauca,CALYTUBLEN,1,1.5
+illinita,CALYTUBLEN,1.5,3
+laevis ,CALYTUBLEN,1,2
+ledifolia ,CALYTUBLEN,1.3,2.3
+megapotamica,CALYTUBLEN,0.5,1.5
+petrophila ,CALYTUBLEN,1.5,2.5
+tucumanensis,CALYTUBLEN,1.5,2
+angustifolia ,CALLOBLEN,0.5,1.5
+bifida,CALLOBLEN,1.5,2
+farinacea,CALLOBLEN,2.5,4
+hypoglauca,CALLOBLEN,2.5,4
+illinita,CALLOBLEN,2,2.5
+laevis ,CALLOBLEN,3,5
+ledifolia ,CALLOBLEN,2.5,3
+megapotamica,CALLOBLEN,1,1.5
+petrophila ,CALLOBLEN,5,12
+tucumanensis,CALLOBLEN,2,5
+angustifolia ,PETLEN,7,11
+bifida,PETLEN,6,8
+farinacea,PETLEN,5,7
+hypoglauca,PETLEN,9,13
+illinita,PETLEN,8.5,10
+laevis ,PETLEN,11,15
+ledifolia ,PETLEN,12,14
+megapotamica,PETLEN,5,6
+petrophila ,PETLEN,12,14
+tucumanensis,PETLEN,12,17
+angustifolia ,FILLEN,6,7
+bifida,FILLEN,6,7
+farinacea,FILLEN,3.5,4.5
+hypoglauca,FILLEN,9,10
+illinita,FILLEN,6,7
+laevis ,FILLEN,7,9
+ledifolia ,FILLEN,9.5,10.5
+megapotamica,FILLEN,3,4
+petrophila ,FILLEN,9.5,10.5
+tucumanensis,FILLEN,9,11
+angustifolia ,ANTHLEN,2,2.5
+bifida,ANTHLEN,1.5,2.5
+farinacea,ANTHLEN,1.3,2.3
+hypoglauca,ANTHLEN,2,3
+illinita,ANTHLEN,1.2,1.5
+laevis ,ANTHLEN,2.5,3.5
+ledifolia ,ANTHLEN,3,3.5
+megapotamica,ANTHLEN,0.5,1.5
+petrophila ,ANTHLEN,2,3
+tucumanensis,ANTHLEN,2.5,3.5
+angustifolia ,STYLEN,6,7.5
+bifida,STYLEN,5,7
+farinacea,STYLEN,3.5,4.5
+hypoglauca,STYLEN,7.5,8.5
+illinita,STYLEN,7,8
+laevis ,STYLEN,7,10
+ledifolia ,STYLEN,10.5,11.5
+megapotamica,STYLEN,2.5,3.5
+petrophila ,STYLEN,9,10
+tucumanensis,STYLEN,9,11

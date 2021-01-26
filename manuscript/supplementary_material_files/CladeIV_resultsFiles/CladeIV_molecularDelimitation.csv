@@ -1,0 +1,43 @@
+SampleName,taxon,Country,Elevation,Latitude,Longitude,RMaverick,mPTP,NMMs,STRUCTURE,morphoSampled,F_MISS,chosenForBFD
+BH23603_E_myrtilloides_Plate5,myrtilloides,Costa Rica,2800,9.6040844,-83.8297303,deme3,group1,3,group1,,0.0967935,0
+CU1445_E_myrtilloides_Plate3,myrtilloides,Ecuador,3319,-3.105,-79.21722222,deme3,group1,3,group1,x,0.0955948,0
+FZ130_E_myrtilloides_Plate5,myrtilloides,Colombia,3511,5.903361111,-73.07527778,deme3,group1,3,group1,,0.0578364,0
+FZ131_E_myrtilloides_Plate1,myrtilloides,Colombia,3509,5.906083333,-73.07577778,deme3,group1,3,group1,,0.0872041,0
+FZ132_E_myrtilloides_Plate5,myrtilloides,Colombia,3678,5.896444444,-73.05972222,deme3,group1,3,group1,,0.0524423,0
+FZ134_E_myrtilloides_Plate5,myrtilloides,Colombia,3698,5.930583333,-73.08291667,deme3,group1,3,group1,,0.0497453,0
+FZ154_E_myrtilloides_Plate5,myrtilloides,Colombia,3718,5.931861111,-73.0805,deme3,group1,3,group1,,0.0566377,0
+FZ168_E_myrtilloides_Plate5,myrtilloides,Peru,3806,-14.06380556,-71.33736111,deme2,group4,1,group2,,0.030866,0
+FZ169_E_myrtilloides_Plate5,myrtilloides,Peru,3902,-14.05761111,-71.33361111,deme2,group4,1,group2,,0.0344621,1
+FZ170_E_myrtilloides_Plate5,myrtilloides,Peru,3900,-14.05802778,-71.33361111,deme2,group4,1,group2,,0.0359604,0
+FZ171_E_myrtilloides_Plate5,myrtilloides,Peru,3796,-14.06516667,-71.33855556,deme2,group4,1,group2,,0.056338,0
+FZ172_E_myrtilloides_Plate5,myrtilloides,Peru,3796,-14.06516667,-71.33855556,deme2,group4,1,group2,,0.0383578,0
+FZ176_E_myrtilloides_Plate5,myrtilloides,Peru,3732,-13.15794444,-72.27794444,deme2,group4,1,group2,,0.0788133,0
+FZ177_E_myrtilloides_Plate5,myrtilloides,Peru,3727,-13.1575,-72.27777778,deme2,group4,1,group2,x,0.0455499,1
+FZ178_E_myrtilloides_Plate5,myrtilloides,Peru,3697,-13.15638889,-72.27947222,deme2,group4,1,group2,,0.050045,0
+FZ179_E_myrtilloides_Plate1,myrtilloides,Peru,3694,-13.16013889,-72.28025,deme2,group4,1,group2,,0.43632,0
+FZ181_E_myrtilloides_Plate5,myrtilloides,Peru,3566,-13.17722222,-72.28988889,deme2,group4,1,group2,,0.0719209,0
+FZ184_E_myrtilloides_Plate5,myrtilloides,Peru,3566,-13.17722222,-72.28988889,deme2,group4,1,group2,,0.0512436,0
+FZ192_E_myrtilloides_Plate5,myrtilloides,Peru,3445,-13.20111111,-71.64083333,deme3,group2,2,group1,,0.0539407,0
+FZ193_E_myrtilloides_Plate3,myrtilloides,Peru,3445,-13.20111111,-71.64083333,deme3,group2,2,group1,x,0.0680252,1
+FZ194_E_myrtilloides_Plate5,myrtilloides,Peru,3445,-13.20111111,-71.64083333,deme3,group2,2,group1,,0.050045,0
+FZ195_E_myrtilloides_Plate5,myrtilloides,Peru,3445,-13.20111111,-71.64083333,deme3,group2,2,group1,,0.050944,0
+FZ197_E_myrtilloides_Plate3,myrtilloides,Peru,3490,-13.19944444,-71.62472222,deme2,group4,1,group2,x,0.115073,0
+FZ201_E_myrtilloides_Plate5,myrtilloides,Peru,3489,-13.20366667,-71.61452778,deme3,group2,2,group1,,0.0943962,0
+FZ219_E_myrtilloides_Plate1,myrtilloides,Peru,3600,-6.744444444,-77.88055556,deme3,group1,3,group1,x,0.144741,1
+FZ223_E_polifolia_Plate3,polifolia,Peru,3170,-6.712777778,-77.85361111,deme3,group3,2,group1,x,0.114174,1
+FZ224_E_polifolia_Plate1,polifolia,Peru,3170,-6.713055556,-77.85277778,deme3,group3,2,group1,x,0.711118,0
+FZ225_E_polifolia_Plate3,polifolia,Peru,3170,-6.713333333,-77.85361111,deme3,group3,2,group1,x,0.0860054,1
+FZ226_E_polifolia_Plate1,polifolia,Peru,3170,-6.713055556,-77.85333333,deme3,group3,2,group1,x,0.147737,0
+FZ250_E_myrtilloides_Plate5,myrtilloides,Peru,2353,-5.380611111,-79.55683333,deme3,group1,2,group1,,0.0551393,0
+FZ252_E_myrtilloides_Plate5,myrtilloides,Peru,2351,-5.38,-79.55722222,deme3,group1,2,group1,x,0.0533413,1
+FZ253_E_myrtilloides_Plate5,myrtilloides,Peru,2360,-5.379972222,-79.55708333,deme3,group1,2,group1,,0.0530417,0
+FZ263_E_myrtilloides_Plate5,myrtilloides,Bolivia,3416,-16.31483333,-67.92405556,deme3,group2,2,group1,,0.0665268,1
+FZ318_E_myrtilloides_Plate3,myrtilloides,Bolivia,3830,-16.19805556,-68.12222222,deme2,group6,1,group2,x,0.0623314,1
+FZ321_E_myrtilloides_Plate1,myrtilloides,Bolivia,3835,-16.19694444,-68.12777778,deme2,group6,1,group2,,0.0743182,0
+FZ328_E_myrtilloides_Plate3,myrtilloides,Peru,3827,-16.38944444,-71.44416667,deme2,group5,1,group2,x,0.173209,1
+FZ86_E_myrtilloides_Plate3,myrtilloides,Colombia,3197,5.001111111,-74.18305556,deme3,group1,3,group1,x (leaves only),0.184297,1
+FZ87_E_myrtilloides_Plate5,myrtilloides,Colombia,3360,4.566388889,-74.00111111,deme3,group1,3,group1,,0.184597,0
+FZ89_E_myrtilloides_Plate5,myrtilloides,Colombia,2660,4.591666667,-74,deme3,group1,3,group1,,0.0332634,0
+JW7766_E_myrtilloides_Plate3,myrtilloides,Bolivia,3400,-18.96666667,-65.4,deme2,group6,1,group2,x,0.0776146,1
+NR2822_E_myrtilloides_Plate3,myrtilloides,Bolivia,3650,-17.26916667,-66.32777778,deme2,group6,1,group2,x,0.0976925,0
+RO334_E_myrtilloides_Plate3,myrtilloides,Costa Rica,2900,10.12222222,-84.10138889,deme3,group1,3,group1,x,0.0776146,0

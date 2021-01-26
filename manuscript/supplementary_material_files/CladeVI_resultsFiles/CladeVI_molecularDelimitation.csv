@@ -1,0 +1,83 @@
+SampleName,taxon,Country,Elevation,Latitude,Longitude,RMaverick,mPTP,NMMs,STRUCTURE,morphoMeasured,F_MISS,chosenForBFD
+FZ123_E_illinita_Plate3,illinita,Chile,960,-33.72916667,-70.47055556,deme1,species1,5,group1,x (leaves only),0.155569,1
+FZ124_E_illinita_Plate3,illinita,Chile,950,-33.72916667,-70.47083333,deme1,species1,5,group1,x (leaves only),0.18295,0
+FZ127_E_illinita_Plate1,illinita,Chile,722,-33.0125,-70.90055556,deme1,species1,5,group1,x (leaves only),0.6229,0
+FZ281_E_hypoglauca_Plate3,hypoglauca,Bolivia,3352,-17.79208333,-65.4875,deme3,species4,2,group3,x (leaves only),0.0510268,0
+FZ304_E_hypoglauca_Plate1,hypoglauca,Bolivia,2843,-17.82852778,-64.7185,deme3,species4,2,group3,x,0.0342253,0
+FZ305_E_hypoglauca_Plate4,hypoglauca,Bolivia,2846,-17.83041667,-64.71869444,deme3,species4,2,group3,x (leaves only),0.0298693,0
+FZ306_E_hypoglauca_Plate3,hypoglauca,Bolivia,2850,-17.83041667,-64.71869444,deme3,species4,2,group3,x (leaves only),0.0360921,0
+FZ308_E_hypoglauca_Plate3,hypoglauca,Bolivia,2928,-17.83686111,-64.72677778,deme3,species4,2,group3,x (leaves only),0.0609832,0
+FZ322_E_angustifolia_Plate3,angustifolia,Peru,2594,-16.55633333,-71.44552778,deme1,species3,6,group1,x,0.154947,1
+FZ323_E_angustifolia_Plate3,angustifolia,Peru,2579,-16.55994444,-71.44852778,deme1,species3,6,group1,x,0.159925,0
+FZ324_E_angustifolia_Plate1,angustifolia,Peru,2585,-16.55994444,-71.44852778,deme1,species3,6,group1,x,0.315495,0
+FZ326_E_angustifolia_Plate3,angustifolia,Peru,2590,-16.5615,-71.44619444,deme1,species3,6,group1,x,0.157436,1
+FZ327_E_angustifolia_Plate3,angustifolia,Peru,2684,-16.5625,-71.44417,deme1,species3,6,group1,,0.184194,0
+FZ353_E_illinita_Plate1,illinita,Chile,1872,-33.32291667,-70.32758333,deme1,species1,5,group1,x (leaves only),0.162414,0
+FZ539_E_illinita_Plate1,illinita,Chile,920,-33.72941667,-70.47116667,deme1,species1,5,group1,x,0.210952,0
+FZ540_E_illinita_Plate3,illinita,Chile,920,-33.72961111,-70.47097222,deme1,species1,5,group1,x,0.165526,1
+FZU10003A_E_tucumanensis_Plate1,tucumanensis,Argentina,900,-27.05556,-65.67111,deme3,species4,2,group3,x,0.2514,1
+FZU10003B_E_tucumanensis_Plate3,tucumanensis,Argentina,900,-27.05556,-65.67111,deme3,species4,2,group3,x (leaves only),0.0603609,0
+FZU10117A_E_tucumanensis_Plate1,tucumanensis,Argentina,1900,-25.73083,-65.47889,deme3,species4,2,group3,x,0.318606,0
+FZU10117C_E_tucumanensis_Plate3,tucumanensis,Argentina,1900,-25.73083,-65.47889,deme3,species4,2,group3,,0.0603609,0
+FZU10330_E_hypoglauca_Plate1,hypoglauca,Argentina,2810,-23.61333,-65.91111,deme3,species4,2,group3,,0.616677,0
+FZU10377A_E_tucumanensis_Plate3,tucumanensis,Argentina,1690,-22.33333,-64.72306,deme3,species4,2,group3,x (leaves only),0.0354698,0
+FZU10406A_E_tucumanensis_Plate3,tucumanensis,Bolivia,1670,-21.43111,-64.27444,deme3,species4,2,group3,x,0.335408,0
+FZU10406C_E_tucumanensis_Plate3,tucumanensis,Bolivia,1670,-21.43111,-64.27444,deme3,species4,2,group3,,0.0902302,0
+FZU10426D_E_hypoglauca_Plate3,hypoglauca,Bolivia,3033,-21.47722,-64.86667,deme3,species4,2,group3,,0.150591,0
+FZU10434A_E_hypoglauca_Plate3,hypoglauca,Bolivia,3398,-21.46694,-64.88806,deme3,species4,2,group3,x,0.0665837,1
+IA1263_E_tucumanensis_Plate3,tucumanensis,Argentina,1300,-22.17333333,-64.67861111,deme3,species4,2,group3,,0.029247,0
+JW11630_E_tucumanensis_Plate3,tucumanensis,Bolivia,2000,-21.41555556,-64.29527778,deme3,species4,2,group3,,0.0242688,0
+JW9552_E_hypoglauca_Plate3,hypoglauca,Bolivia,3300,-21.46611111,-64.88527778,deme3,species4,2,group3,x,0.369633,0
+LF10_E_farinacea_Plate2,farinacea,Brazil,927,-25.51266667,-49.054,deme4,species7,4,group4,x,0.0435594,1
+LF15_E_farinacea_Plate2,farinacea,Brazil,914,-25.49417,-49.04444,deme4,species7,4,group4,,0.0908525,0
+LF16_E_bifida_Plate1,bifida,Brazil,914,-25.49417,-49.04444,deme5,species5,3,group2,,0.0497822,0
+LF18_E_bifida_Plate2,bifida,Brazil,914,-25.49417,-49.04444,deme5,species5,3,group2,,0.067206,1
+LF33_E_bifida_Plate2,bifida,Brazil,709,-27.66583,-49.20528,deme5,species5,3,group2,,0.0647169,0
+LF39_E_bifida_Plate1,bifida,Brazil,1194,-28.05556,-49.48917,deme5,species5,3,group2,,0.0566273,0
+LF42_E_petrophila_Plate1,petrophila,Brazil,1130,-28.05591667,-49.36675,deme4,species9,1,group4,x (leaves only),0.0454263,1
+LF44_E_petrophila_Plate4,petrophila,Brazil,1128,-28.05583333,-49.36666667,deme4,species9,1,group4,x (leaves only),0.0528936,1
+LF45_E_petrophila_Plate1,petrophila,Brazil,1131,-28.05591667,-49.36669444,deme4,species9,1,group4,x (leaves only),0.040448,0
+LF46_E_bifida_Plate3,bifida,Brazil,1130,-28.05583,-49.36667,deme5,species5,3,group2,,0.0989421,0
+LF51_E_ledifolia_Plate2,ledifolia,Brazil,1108,-27.84102778,-49.64888889,deme4,species8,1,group4,x (leaves only),0.051649,0
+LF52_E_ledifolia_Plate2,ledifolia,Brazil,1110,-27.84097222,-49.64888889,deme4,species8,1,group4,x (leaves only),0.0348475,1
+LF53_E_ledifolia_Plate2,ledifolia,Brazil,1109,-27.84102778,-49.64894444,deme4,species8,1,group4,x (leaves only),0.129434,0
+LF54_E_ledifolia_Plate2,ledifolia,Brazil,1109,-27.84102778,-49.64897222,deme4,species8,1,group4,x (leaves only),0.033603,0
+LF55_E_ledifolia_Plate2,ledifolia,Brazil,1109,-27.84102778,-49.64888889,deme4,species8,1,group4,x (leaves only),0.044804,0
+LF56_E_ledifolia_Plate5,ledifolia,Brazil,1108,-27.84083333,-49.64886111,deme4,species8,1,group4,x (leaves only),0.108899,0
+LF57_E_ledifolia_Plate2,ledifolia,Brazil,1108,-27.84083333,-49.64886111,deme4,species8,1,group4,x (leaves only),0.0329807,0
+LF59_E_ledifolia_Plate2,ledifolia,Brazil,1109,-27.84102778,-49.64891667,deme4,species8,1,group4,x (leaves only),0.0416926,1
+LF6_E_bifida_Plate2,bifida,Brazil,906,-25.425876,-49.266829,deme5,species5,3,group2,,0.0553827,0
+LF60_E_ledifolia_Plate1,ledifolia,Brazil,1109,-27.84083333,-49.64886111,deme4,species8,1,group4,x (leaves only),0.179838,0
+LF61_E_bifida_Plate2,bifida,Brazil,1116,-27.89306,-50.13917,deme5,species5,3,group2,,0.0746733,0
+LF63_E_farinacea_Plate1,farinacea,Brazil,1116,-27.89306,-50.13917,deme4,species7,4,group4,,0.0460485,0
+LF64_E_farinacea_Plate2,farinacea,Brazil,1116,-27.89306,-50.13917,deme4,species7,4,group4,,0.0734287,0
+LF72_E_megapotamica_Plate2,megapotamica,Brazil,780,-26.09997222,-49.82508333,deme5,species6,7,group2,x (leaves only),0.134412,1
+LF73_E_megapotamica_Plate2,megapotamica,Brazil,780,-26.09997222,-49.82508333,deme5,species6,7,group2,,0.103298,0
+LF75_E_megapotamica_Plate1,megapotamica,Brazil,761,-25.87819444,-50.37886111,deme5,species6,7,group2,x (leaves only),0.0721842,1
+LF76_E_megapotamica_Plate2,megapotamica,Brazil,761,-25.87819444,-50.37886111,deme5,species6,7,group2,,0.288737,0
+LF77_E_megapotamica_Plate2,megapotamica,Brazil,761,-25.87819444,-50.37886111,deme5,species6,7,group2,,0.0734287,0
+LF78_E_megapotamica_Plate2,megapotamica,Brazil,761,-25.87819444,-50.37886111,deme5,species6,7,group2,,0.219042,0
+LF80_E_farinacea_Plate2,farinacea,Brazil,958,-25.46583,-49.76639,deme4,species7,4,group4,,0.0535159,0
+LF81_E_farinacea_Plate2,farinacea,Brazil,958,-25.46583,-49.76639,deme4,species7,4,group4,,0.0416926,0
+LF82_E_laevis_Plate1,laevis,Brazil,1823,-25.24083333,-48.8305,deme4,species10,1,group4,x (leaves only),0.0360921,0
+LF83_E_laevis_Plate2,laevis,Brazil,1823,-25.24083333,-48.8305,deme4,species10,1,group4,x (leaves only),0.0273802,0
+LF84_E_laevis_Plate2,laevis,Brazil,1823,-25.24083333,-48.8305,deme4,species10,1,group4,x (leaves only),0.0815184,0
+LF85_E_laevis_Plate2,laevis,Brazil,1823,-25.24083333,-48.8305,deme4,species10,1,group4,x (leaves only),0.11201,0
+LF86_E_laevis_Plate2,laevis,Brazil,1823,-25.24083333,-48.8305,deme4,species10,1,group4,x,0.0323584,1
+LF87_E_laevis_Plate3,laevis,Brazil,1823,-25.24086111,-48.8305,deme4,species10,1,group4,x,0.0354698,1
+MG6302_E_angustifolia_Plate3,angustifolia,Chile,1800,-18.83305556,-69.74527778,deme1,species3,6,group1,x,0.693839,0
+MN33903_E_hypoglauca_Plate3,hypoglauca,Bolivia,2200,-18.56666667,-64.05,deme3,species4,2,group3,x,0.0398258,0
+PB512_E_illinita_Plate3,illinita,Chile,2650,-30.14361111,-70.04861111,deme1,species2,5,group1,x,0.760423,0
+RK10198_E_angustifolia_Plate3,angustifolia,Chile,2000,-31.38333333,-69.7,deme1,species2,5,group1,,0.163037,1
+RW18130_E_angustifolia_Plate3,angustifolia,Chile,2400,-29.95,-70.55,deme1,species2,5,group1,x,0.395769,1
+WP152_E_farinacea_Plate2,farinacea,Brazil,1796,-22.76136111,-45.54916667,deme4,species7,4,group4,x (leaves only),0.0435594,1
+WP154_E_farinacea_Plate2,farinacea,Brazil,1796,-22.76139,-45.54917,deme4,species7,4,group4,,0.056005,0
+WP155_E_bifida_Plate2,bifida,Brazil,1872,-22.7675,-45.53806,deme5,species5,3,group2,,0.0802738,0
+WP158_E_farinacea_Plate2,farinacea,Brazil,1872,-22.7675,-45.53833,deme4,species7,4,group4,,0.0479154,0
+WP160_E_farinacea_Plate2,farinacea,Brazil,1808,-22.77083,-45.53083,deme4,species7,4,group4,,0.044804,0
+WP163_E_bifida_Plate2,bifida,Brazil,1556,-22.60888889,-45.55916667,deme5,species5,3,group2,x,0.103298,0
+WP164_E_laevis_Plate2,laevis,Brazil,2149,-22.48222,-45.08056,deme4,species11,1,group4,x (leaves only),0.225264,0
+WP165_E_laevis_Plate2,laevis,Brazil,2173,-22.4825,-45.08056,deme4,species11,1,group4,x (leaves only),0.0728065,1
+WP167_E_laevis_Plate3,laevis,Brazil,2205,-22.48416667,-45.08138889,deme4,species11,1,group4,x,0.135034,1
+WP168_E_laevis_Plate2,laevis,Brazil,2216,-22.48458333,-45.08336111,deme4,species11,1,group4,x,0.235221,0
+WP169_E_bifida_Plate1,bifida,Brazil,2194,-22.48483333,-45.08205556,deme5,species5,3,group2,x,0.131923,1

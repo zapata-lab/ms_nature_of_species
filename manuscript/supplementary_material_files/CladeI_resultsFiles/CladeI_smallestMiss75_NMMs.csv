@@ -1,0 +1,15 @@
+,X,MolecularSampleName,SampleName,SpecimenID,libraryNumber,taxon,country,Elevation,Latitude,Longitude,class.dim2.n0,probass.dim2.n0.g1,probass.dim2.n0.g2,probass.dim2.n0.g3,NMDS1.dim2.n0,NMDS2.dim2.n0
+1,1,FZ241_E_micrantha_Plate3,FZ241_E_micrantha,FZ241,Plate3,micrantha,Peru,2124,-7.074583333,-79.05105556,3,0,0,1,0.452554138,-0.001263032
+2,2,FZ242_E_micrantha_Plate1,FZ242_E_micrantha,FZ242,Plate1,micrantha,Peru,2124,-7.074611111,-79.05108333,3,0,0,1,0.452518271,-0.00142974
+3,3,FZ243_E_micrantha_Plate3,FZ243_E_micrantha,FZ243,Plate3,micrantha,Peru,2118,-7.072111111,-79.04830556,3,0,0,1,0.452536082,-0.001276167
+4,4,FZ245A_E_micrantha_Plate1,FZ245A_E_micrantha,FZ245A,Plate1,micrantha,Peru,2118,-7.072222222,-79.04833333,3,0,0,1,0.452541402,-0.001373308
+5,5,FZ289_E_millegrana_Plate1,FZ289_E_millegrana,FZ289,Plate1,millegrana,Bolivia,2756,-17.84316667,-65.46086111,2,0,1,0,-0.180013247,0.055159375
+6,6,FZ290_E_millegrana_Plate3,FZ290_E_millegrana,FZ290,Plate3,millegrana,Bolivia,2756,-17.84361111,-65.46111111,2,0,1,0,-0.180092332,0.055157164
+7,7,FZ291_E_millegrana_Plate3,FZ291_E_millegrana,FZ291,Plate3,millegrana,Bolivia,2752,-17.84641667,-65.45675,2,0,1,0,-0.180037863,0.055117011
+8,8,FZ311_E_millegrana_Plate3,FZ311_E_millegrana,FZ311,Plate3,millegrana,Bolivia,2663,-17.74541667,-64.93311111,2,0,1,0,-0.180021899,0.055194753
+9,9,FZU10219A_E_millegrana_Plate1,FZU10219A_E_millegrana,FZU10219A,Plate1,millegrana,Argentina,1650,-24.23444,-65.07917,1,1,0,0,-0.181665671,-0.035912679
+10,10,FZU10362A_E_millegrana_Plate3,FZU10362A_E_millegrana,FZU10362A,Plate3,millegrana,Argentina,1625,-22.31194,-64.71444,1,1,0,0,-0.181711616,-0.035924918
+11,11,FZU10362C_E_millegrana_Plate3,FZU10362C_E_millegrana,FZU10362C,Plate3,millegrana,Argentina,1625,-22.31194,-64.71444,1,1,0,0,-0.1816812,-0.035953998
+12,12,FZU10398A_E_millegrana_Plate1,FZU10398A_E_millegrana,FZU10398A,Plate1,millegrana,Bolivia,2360,-21.44139,-64.38417,1,1,0,0,-0.18167058,-0.035772422
+13,13,FZU10398D_E_millegrana_Plate3,FZU10398D_E_millegrana,FZU10398D,Plate3,millegrana,Bolivia,2360,-21.44139,-64.38417,1,1,0,0,-0.181638144,-0.035807297
+14,14,FZU10413_E_millegrana_Plate3,FZU10413_E_millegrana,FZU10413,Plate3,millegrana,Bolivia,1160,-21.46472,-64.14306,1,1,0,0,-0.181617343,-0.035914743

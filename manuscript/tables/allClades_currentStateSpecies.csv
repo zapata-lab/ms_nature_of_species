@@ -1,0 +1,7 @@
+Clade,Taxonomic species,Specimens,Minimum proportion overlap among 10-cubes,Maximum proportion overlap among 10-cubes,Percent specimens matching any 10-cube,Percent specimens matching correct 10-cube
+I,2,33,0,0,0,0
+II,2,33,0,0,0,0
+III,6,130,0,0.02,1.6,0.8
+IV,2,74,0,0,0,0
+V,7,214,0,0.13,0,0
+VI,10,195,0,0,0,0
