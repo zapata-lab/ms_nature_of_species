@@ -1,0 +1,177 @@
+#########################
+#                       #
+### Sensitivity Tests ###
+#                       #
+#########################
+
+# These are a series of commands used to run three kind of analyses on the three matrices 
+# with different amounts of missing data generated in step 2.
+
+ 
+======================================================================================================
+# NOTE: These analyses require and/or generate several thousands of files which are not provided 
+# here. Below we provide instructions on how to generate such files. Because the final analyses in 
+# our mansucript only used the "smallest matrix", we provide all files associated with this matrix in 
+# the `data` directory
+======================================================================================================
+
+
+################
+### PCA
+################
+# This uses [SNPRelate](https://github.com/zhengxwen/SNPRelate) to perform a PCA on SNP data. You need to have `R` installed on your system
+
+# Run the code between ``` ``` in the command line
+
+```
+module load R
+
+# Largest matrix
+
+Rscript bin/snp_pca_static.R CladeI_filtered_25.vcf CladeI_PCA_largest ../../data/CladeI/CladeI_popFile.txt | grep -A 4 '$$eigenval' |tail -n +2 > CladeI_filtered_25_eigenvectors.txt`
+
+Middle size matrix
+
+`Rscript bin/snp_pca_static.R CladeI_filtered_50.vcf CladeI_PCA_middle ../../data/CladeI/CladeI_popFile.txt | grep -A 4 '$$eigenval' |tail -n +2 > CladeI_filtered_50_eigenvectors.txt`
+
+Smallest matrix
+
+`Rscript bin/snp_pca_static.R CladeI_filtered_75.vcf CladeI_PCA_smallest ../../data/CladeI/CladeI_popFile.txt | grep -A 4 '$$eigenval' |tail -n +2 > CladeI_filtered_75_eigenvectors.txt`
+```
+
+----------------------------------------------------------------------------------------------------
+
+################
+#### Phylogenetic inference using Maximum Likelihood
+################
+
+# To carry our phylogenetic analyses with the three datasets, we generated full loci files (not only
+# SNPs). With these files we were able to estimate locus trees and calculate gCF and sCF statistics. 
+# For phylogenetic inference we used [IQ-Tree](http://www.iqtree.org/).
+
+
+======================================================================================================
+# NOTE: you will need to generate loci files This step uses two scripts provided in the `bin` 
+# directory. Please read the documentation of each script. The script `build_gphocs.py` generates a 
+# warning; you need to add a carriage return at the end of the file using `echo "" >> file.txt` before running the script `make_loci_files_and_partition_file.py`
+======================================================================================================
+
+# Largest matrix
+
+python bin/build_gphocs.py --infile_vcf_file CladeI_filtered_25.vcf --infile_loci_file ../../data/CladeI/CladeI_ipyradOut.loci
+
+echo "" >> file.txt
+
+python bin/make_loci_files_and_partition_file.py --infile_gphocs_file CladeI_filtered_25_handmade.gphocs
+
+# Middle size matrix
+
+python bin/build_gphocs.py --infile_vcf_file CladeI_filtered_50.vcf --infile_loci_file ../../data/CladeI/CladeI_ipyradOut.loci
+
+echo "" >> file.txt
+
+python bin/make_loci_files_and_partition_file.py --infile_gphocs_file CladeI_filtered_50_handmade.gphocs 
+
+# Smallest matrix
+
+python bin/build_gphocs.py --infile_vcf_file CladeI_filtered_75.vcf --infile_loci_file ../../data/CladeI/CladeI_ipyradOut.loci
+
+echo "" >> file.txt
+
+python bin/make_loci_files_and_partition_file.py --infile_gphocs_file CladeI_filtered_75_handmade.gphocs
+
+# Once you have generated the files above (**NOTE: these are thousands of files**), run the following commands for phylogenetic inference:
+
+# Largest matrix
+
+# 1) infer reference tree:
+
+iqtree-1.7-beta12-Linux/bin/iqtree -p <directory of locus alignments> --prefix concat -bb 1000 -nt AUTO
+
+# 2) infer phylogenies for each locus, including model selection in the inference:
+
+iqtree-1.7-beta112-Linux/bin/iqtree -S <directory of locus alignments> --prefix loci -nt AUTO
+
+# 3) calculate the gene and site concordances for each locus:
+
+iqtree-1.7-beta12-Linux/bin/iqtree -t concat.treefile --gcf loci.treefile -p <directory of locus alignments> --scf 1000 --prefix concord -nt 10 --cf-verbose
+
+# Middle sized matrix
+
+# 1) infer reference tree:
+
+iqtree-1.7-beta12-Linux/bin/iqtree -p <directory of locus alignments> --prefix concat -bb 1000 -nt AUTO
+
+# 2) infer phylogenies for each locus, including model selection in the inference:
+
+iqtree-1.7-beta112-Linux/bin/iqtree -S <directory of locus alignments> --prefix loci -nt AUTO
+
+# 3) calculate the gene and site concordances for each locus:
+
+iqtree-1.7-beta12-Linux/bin/iqtree -t concat.treefile --gcf loci.treefile -p <directory of locus alignments> --scf 1000 --prefix concord -nt 10 --cf-verbose
+
+# Smallest matrix
+
+# 1) infer reference tree:
+
+iqtree-1.7-beta12-Linux/bin/iqtree -p <directory of locus alignments> --prefix concat -bb 1000 -nt AUTO
+
+# 2) infer phylogenies for each locus, including model selection in the inference:
+
+iqtree-1.7-beta112-Linux/bin/iqtree -S <directory of locus alignments> --prefix loci -nt AUTO
+
+# 3) calculate the gene and site concordances for each locus:
+
+iqtree-1.7-beta12-Linux/bin/iqtree -t concat.treefile --gcf loci.treefile -p <directory of locus alignments> --scf 1000 --prefix concord -nt 10 --cf-verbose
+
+----------------------------------------------------------------------------------------------------
+
+
+################
+### ADMIXTURE
+################
+
+# We used vcftools and the plink toolkit to convert the filtered vcf file into the files needed for 
+# ADMIXTURE (https://dalexander.github.io/admixture/download.html) runs. 
+# Use vcftools to convert the filtered vcf file to a plink formatted file. Output will be three
+# files: .log, .map, .ped 
+# Convert these to the newest plink format and remove missing  data. Output will be an additional .nosex file
+
+# Largest matrix
+
+vcftools --vcf CladeI_filtered_25.vcf --out CladeI_filtered_25.vcf --plink
+
+plink --geno 0.1 --file CladeI_filtered_25 --recode 12 --out CladeI_filtered_25
+
+# Middle matrix
+
+vcftools --vcf CladeI_filtered_50.vcf --out CladeI_filtered_50.vcf --plink
+
+plink --geno 0.1 --file CladeI_filtered_50 --recode 12 --out CladeI_filtered_50
+
+# Smallest matrix
+
+vcftools --vcf CladeI_filtered_70.vcf --out CladeI_filtered_75.vcf --plink
+
+plink --geno 0.1 --file CladeI_filtered_75 --recode 12 --out CladeI_filtered_75
+
+# To run ADMIXTURE across 10 replicates, we used the following bash script. Here we provide the example only for the smallest matrix. Change accordingly for the other matrices. Run the code within ``` ``` as a bash script
+
+```!#
+# make directories to hold results of each iteration
+mkdir -p run{1..10}
+
+# for each iteration, run ADMIXTURE
+array=( "run1/" "run2/" "run3/" "run4/" "run5/" "run6/" "run7/" "run8/" "run9/" "run10/" )
+for i in "${array[@]}"
+do 
+for K in 1 2 3; do admixture_linux-1.3.0/admixture --cv CladeI_filtered_75.ped -s $RANDOM $K | tee log${K}.out; done
+mv log*.out $i
+mv CladeI_filtered_75.*.Q $i
+mv CladeI_filtered_75.*.P $i
+done
+
+# summarize the results
+grep -h CV run*/log*.out > CladeI_smallestMiss75_ADMIXresults.txt
+```
+

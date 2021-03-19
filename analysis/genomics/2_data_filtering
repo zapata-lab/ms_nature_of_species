@@ -1,0 +1,87 @@
+#########################
+#                       #
+### dataset filtering ###
+#                       #
+#########################
+
+# A series of bash scripts using VCFTools 0.1.14 (https://vcftools.github.io/man_latest.html) 
+# and vcf_parser.py (which utilizes python3; from the RAD_Tools collection at Computational Biology & 
+# Population Genomics Group; https://github.com/CoBiG2)
+
+
+
+### Step 1. Filter out individuals with extreme amounts of missing data, duplicated accessions, and/or underrepresented taxa
+
+# calculate amount of missing data per individual
+
+vcftools --vcf ../../data/CladeI/CladeI_ipyradOut.vcf --missing-indv --out CladeI_imiss`
+
+
+# Remove individuals as necessary
+
+vcftools --vcf ../../data/CladeI/CladeI_ipyradOut.vcf --remove-indv $list_of_individuals --out CladeI_ipyradOut_indv95 --recode
+
+
+### Step 2. Make three different datasets. These datasets all have the same individuals but vary in the number of loci present, determined by the amount of missing data across samples at any given locus.
+
+
+
+######## LARGEST dataset - keep loci that have data for at least 25% of the samples ###########
+
+# filter loci
+vcftools --vcf  CladeI_ipyradOut_indv95.recode.vcf --max-missing 0.25 --out  CladeI_ipyradOut_indv95_miss25 --recode
+
+# omit multiallelic loci (ie, keep only biallelic loci)
+vcftools --vcf  CladeI_CladeI_ipyradOut_indv95_miss25.recode.vcf --out  CladeI_ipyradOut_indv95_miss25_biallele --recode --max-alleles 2
+
+# take the center SNP only
+python3 vcf_parser.py --center-snp -vcf  CladeI_ipyradOut_indv95_miss25_biallele.recode.vcf
+
+# record dimensions of dataset for assembly statistics reporting
+vcftools --vcf  CladeI_ipyradOut_indv95_miss25_bialleleCenterSNP.vcf
+
+# change name
+mv CladeI_ipyradOut_indv95_miss25_bialleleCenterSNP.vcf CladeI_filtered_25.vcf
+
+
+
+######## MIDDLE dataset - keep loci that have data for at least 50% of samples ###########
+
+# filter loci
+vcftools --vcf  CladeI_ipyradOut_indv95.recode.vcf --max-missing 0.50 --out  CladeI_cladeSpecificAnalysis_indv95_miss50 --recode
+
+# omit multiallelic loci (ie, keep only biallelic loci)
+vcftools --vcf  CladeI_ipyradOut_indv95_miss50.recode.vcf --out  CladeI_ipyradOut_indv95_miss50_biallele --recode --max-alleles 2
+
+# take the center SNP only
+python3 vcf_parser.py --center-snp -vcf  CladeI_ipyradOut_indv95_miss50_biallele.recode.vcf
+
+# record dimensions of dataset for assembly statistics reporting
+vcftools --vcf  CladeI_ipyradOut_indv95_miss50_bialleleCenterSNP.vcf
+
+# change name
+
+mv CladeI_ipyradOut_indv95_miss50_bialleleCenterSNP.vcf CladeI_filtered_50.vcf
+
+
+
+######## SMALLEST dataset - keep loci that have data for at least 75% of the samples ###########
+
+# filter loci
+vcftools --vcf  CladeI_ipyradOut_indv95.recode.vcf --max-missing 0.75 --out  CladeI_ipyradOut_indv95_miss75 --recode
+
+# omit multiallelic loci (ie, keep only biallelic loci)
+vcftools --vcf  CladeI_ipyradOut_indv95_miss75.recode.vcf --out  CladeI_ipyradOut_indv95_miss75_biallele --recode --max-alleles 2
+
+# take the center SNP only
+python3 vcf_parser.py --center-snp -vcf CladeI_ipyradOut_indv95_miss75_biallele.recode.vcf
+
+# record dimensions of dataset for assembly statistics reporting
+vcftools --vcf  CladeI_ipyradOut_indv95_miss75_bialleleCenterSNP.vcf
+
+# Change name
+mv CladeI_ipyradOut_indv95_miss75_bialleleCenterSNP.vcf CladeI_filtered_75.vcf
+
+**NOTE: The small matrix is the matrix we used for all analysis in our manuscript (see Supplementary Material for explanation). In the `data` directory, the final matrix file is called `CladeI_filtered.vcf` instead of `CladeI_filtered_75.vcf`**
+
+

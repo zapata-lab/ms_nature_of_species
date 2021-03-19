@@ -1,0 +1,76 @@
+##############################################                                        
+# Model-based species delimitation: RI Model #
+##############################################
+
+# For this analysis, we used the program BPP. To initiate BPP runs, we used demes identified by 
+# STRUCTURE and RMaverick. Because these analyses are computationally intensive, we use only the 
+# most informative loci. To assess performance of these analyses, we performed multiple replicate 
+# analyses with all informative loci and with a reduced subset of loci.
+
+# To generate STRUCTURE and RMaverick input files we used PGDSpider (http://www.cmpg.unibe.ch/software/PGDSpider/). We ran the following commands within ``` ```:
+
+```
+# provide the path to the population file and create a SPID skeleton
+sed 's|path_to_popfile|../../data/CladeI/CladeI_popFile.txt|g' SPIDs/skeleton.spid > SPIDs/vcf2structure.spid
+echo "" >> SPIDs/vcf2structure.spid 
+echo "WRITER_FORMAT=STRUCTURE" >> SPIDs/vcf2structure.spid
+echo "" >> SPIDs/vcf2structure.spid
+echo "STRUCTURE_WRITER_LOCI_DISTANCE_QUESTION=false" >> SPIDs/vcf2structure.spid
+echo "STRUCTURE_WRITER_DATA_TYPE_QUESTION=SNP" >> SPIDs/vcf2structure.spid
+echo "" >> SPIDs/vcf2structure.spid
+echo "STRUCTURE_WRITER_FAST_FORMAT_QUESTION=true" >> SPIDs/vcf2structure.spid
+```
+
+# Then ran PGDSpider
+
+java -Xmx1024m -Xms512m -jar PGDSpider_2.1.1.5/PGDSpider2-cli.jar -inputfile CladeI_filtered.vcf -inputformat VCF -outputfile CladeI_cfiltered.str -outputformat STRUCTURE -spid ../SPIDs/vcf2structure.spid
+
+
+# To generate RMavericks input file, we ran the following command:
+
+cat ../../data/CladeI/CladeI_filtered.str | cut -f 1,2,7 | sed 's/ /\t/g' > ../../data/CladeI/CladeI_filtered.maverick.str
+
+#########
+## BPP ##
+#########
+
+# Our analysis pipeline performed multiple replicate analyses, using the full set of loci and a 
+# subset of loci, to assess convergence of the analysis and to confirm that multiple runs settled 
+# on the same delimitation. Each replicate varied the rjMCMC algorithm used and the starting tree.
+
+
+# Dataset preparation
+# "Full" dataset runs:
+# Because BPP analyses are computationally intensive, we pared our dataset down to include only the
+# most informative loci - i.e., those that had an sCF score > 0.5. <from the IQTree manual> "The sCF 
+# score is defined as the percentage of decisive alignment sites supporting a branch in the reference 
+# tree. sCF is a novel measure that is particularly useful when individual gene alignments are 
+# relatively uninformative, such that gene trees are uncertain."
+
+# Subset loci runs:
+# To further reduce the datasets, we selected only the top ~0.25% of loci by adjusting the value for the 'nloci' setting in the .ctl file 
+
+
+
+# To run BPP, we need three things:
+
+# A control file (bpp.ctl) that sets the analysis parameters, indicates input/output files, etc. (`../../data/CladeI/CladeI_r1_a.ctl`)
+
+# A mapping file that links specimen names to their putative species assignment (`../../data/CladeI/CladeI_imap.txt`)
+
+# The phylip-formatted sequence file that holds the loci used for the analysis (`../../data/CladeI/CladeI_loci2keep.phy`)
+
+# The .ctl file points the analysis to the sequence data and the mapping file. It also initiates checkpointing, which allows you to checkin on the analysis through the course of the run.
+
+# To submit the analysis, you simply call BPP and give the name of the .ctl file
+
+bpp-4.1.3-linux-x86_64/bin/bpp --cfile ../../data/CladeI/CladeIr1_a.ctl
+
+# To resume an analysis, you call the checkpoint file. In this example, we're providing checkpoint file #10
+
+bpp-4.1.3-linux-x86_64/bin/bpp --resume ../../data/CladeI/CladeI_r1_a_.out.10.chk
+
+# For the replicate runs, we manually adjusted the .ctl file by switching the algorithm and/or by changing the topology that initiated analysis. 
+
+
+

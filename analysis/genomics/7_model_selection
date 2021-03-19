@@ -1,0 +1,48 @@
+###################
+# Model selection #
+###################
+
+# For this analysis, we used the program BEAST2/ We used the SNAPP algorithm modified to carry 
+# out BFD* analysis.
+
+# To test different models for species delimitation (GC, AC, RI), we ran separate SNAPP analyses.
+# The only difference about these analyses was the assignment of individuals to species, according to 
+# the tested model. Therefore, we created a master analysis .xml file in Beauti, and then manually 
+#changed it to set up the alternative models. 
+
+# Sequence data:
+# To keep analyses computationally tractable, we reduced both individuals and loci. Filtering of 
+# loci and individuals was performed using vcftools. Once the reduced .vcf file was generated, we 
+# used the script `bin/vcf2different_formats.py` to convert the vcf file to a binary file (the format 
+# needed for SNAPP). 
+# The filtered .vcf file and the converted binary version that were used to create the 
+# template .xml file for these analyses are:
+# `../../data/CladeI/CladeI_filtered_informativeLoci_subBFD.vcf` 
+# ``../../data/CladeI/CladeI_filtered_informativeLoci_subBFD.nexus`
+
+# SNAPP Priors:
+# lambda prior (the rate that species divergence): we used `pyule` (https://github.com/joaks1/pyule). 
+# We used the average divergence across all samples in a clade (See  `../../data/CladeI/CladeIconcat.mldist`, 
+# generated during tree search using IQ-Tree). We provided this rate value to `pyule` along with the 
+# number of species in each tested model to get estimates for height and length of the tree according 
+# to each model. We averaged this value across all models tested, set alpha equal to 2 (to capture a 
+# broad distribution), and adjusted the beta values such that alpha*beta equaled the median of a 
+# gamma distribution -- i.e., is close to the expected average height of the tree according to all 
+# models tested.
+
+# theta prior: this is the estimate of expected divergence between species. We used the gamma 
+# distribution. We set alpha to 2 (to capture a broad distribution) and adjusted beta such that alpha/
+# beta was equal to the average pairwise sequence divergence (the same value used for lambda prior).
+
+
+# MCMC:
+# For each analysis, we set the chain length to 262,500, stored every 10, with a preburnin set to 
+# 12500 and initialization attempts set at 10. This results in at least 25,000 samples from the 
+# posterior. 
+
+# We used Beauti to create a template input file (`../../data/CladeI/CladeI_BFD_template.xml`),
+# and added manually the path sampling commands. For alternative models, we created xml files 
+# accordingly.
+
+# We ran BEAST2 on CIPRES. If results did not converge to stationarity, we ran a new analyses 
+# with twice the number of steps.

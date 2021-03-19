@@ -1,0 +1,27 @@
+##############################################                                        
+# Model-based species delimitation: AC Model #
+##############################################
+
+# For this analysis, we first need to midroot our ML Tree. In `R`, run the following commands within ``` ```
+
+```
+module load R
+
+library(ggtree)
+library(phytools)
+myTree <- read.tree("../..data/CladeI/CladeI_concat.contree")
+myTree_midRoot <- midpoint.root(myTree)
+plot.phylo(myTree_midRoot, edge.width = 2, cex=0.75, align.tip.label = TRUE)
+write.tree(myTree_midRoot, file="../../data/CladeI/CladeI_concat_midRoot.tre")#this file is not provided in this repo
+```
+
+
+# Then, using the command line version of mPTP (https://github.com/Pas-Kapli/mptp), run the following commands:
+
+# To perform the maximum likelihood based method of mPTP, we used:
+
+./mptp --ml --multi --tree_file ../../data/CladeI/CladeI_concat_midRoot.tre --output_file ../../data/CladeI/CladeI_concat_midRoot.tree
+
+# To perform the mcmc approach for sampling the space of possible delimitations we used:
+
+./mptp --multi --mcmc 500000000 --mcmc_sample 1000000 --mcmc_burnin 1000000 --seed 23456 --mcmc_startrandom --tree_file ../../data/CladeI/CladeI_concat_midRoot.tre --output_file ../../data/CladeI/CladeI_concat_midRoot.tree.mcmc
