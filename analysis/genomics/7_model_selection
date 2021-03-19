@@ -18,7 +18,7 @@
 # The filtered .vcf file and the converted binary version that were used to create the 
 # template .xml file for these analyses are:
 # `../../data/CladeI/CladeI_filtered_informativeLoci_subBFD.vcf` 
-# ``../../data/CladeI/CladeI_filtered_informativeLoci_subBFD.nexus`
+# `../../data/CladeI/CladeI_filtered_informativeLoci_subBFD.nexus`
 
 # SNAPP Priors:
 # lambda prior (the rate that species divergence): we used `pyule` (https://github.com/joaks1/pyule). 
