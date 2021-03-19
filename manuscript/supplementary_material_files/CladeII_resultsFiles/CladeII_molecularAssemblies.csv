@@ -1,0 +1,9 @@
+,Specimens,Loci,Sites
+total prefiltered loci,15,66064,
+total filtered loci,15,30440,157469
+specimens with >= 95% missing data,0,-,-
+largest data matrix (75% missing data),15,26466,153826
+middle sized data matrix (50% missing data),15,15284,99103
+smallest data matrix (25% missing data),15,8086,53485
+most informative loci (via gCF/sCF analyses),15,6917,-
+loci used for BFD*,8,3005,-

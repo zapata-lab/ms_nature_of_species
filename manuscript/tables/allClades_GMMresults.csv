@@ -1,0 +1,24 @@
+Clade,Model,Phenogroups,BIC,Rank,$\Delta$BIC
+I,Naive,2,54.03099,1,0
+,Taxonomy,2,45.80586,2,8.22513
+,Taxonomy unaware,1,33.45654,3,20.57445
+,,,,,
+II,Naive,3,71.72976,1,0
+,Taxonomy unaware,1,47.52785,2,24.20191
+,Taxonomy,2,17.77346,3,53.9563
+,,,,,
+III,Naive,5,387.1528,1,0
+,Taxonomy unaware,4,170.8393,2,216.3135
+,Taxonomy,6,53.38527,3,333.76753
+,,,,,
+IV,Taxonomy,2,-115.0039,1,0
+,Taxonomy unaware,2,-115.0039,1,0
+,Naive,3,-115.8991,2,0.8952
+,,,,,
+V,Naive,8,-516.7234,1,0
+,Taxonomy unaware,4,-648.039,2,131.3156
+,Taxonomy,7,-791.4535,3,274.7301
+,,,,,
+VI,Naive,8,231.2478,1,0
+,Taxonomy unaware,10,200.3038,2,30.944
+,Taxonomy,10,-517.7635,3,749.0113

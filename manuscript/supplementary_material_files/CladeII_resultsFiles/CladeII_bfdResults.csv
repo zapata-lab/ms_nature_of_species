@@ -1,0 +1,4 @@
+Clade,Number of loci,Model,Genogroups,Marginal likelihood,Rank,Bayes Factor
+II,3005,CA,4,-13460.9174,1,-
+,,RI\textsuperscript{a}/GC,3,-15036.4383,2,3151.0418
+,,RI\textsuperscript{b},2,-18963.3424,3,11004.85

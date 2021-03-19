@@ -1,0 +1,54 @@
+SampleName,taxon,country,Latitude,Longitude,Elevation,STRUCTURE,RMavDemes,NMMgroups,mPTPgroups,morphologicalSampling,F_MISS,chosenForBFD
+FZ174_E_resinosa_Plate2,resinosa,Bolivia,-14.08213889,-71.36888889,3553,group1,deme1,group1,group1,x,0.0275616,1
+FZ240_E_piurensis_Plate2,piurensis,Peru,-7.328138889,-78.81075,2709,group1,deme1,group1,group1,x,0.0272374,1
+FZ310_E_resinosa_Plate1,resinosa,Peru,-17.82777778,-64.78361111,3045,group1,deme1,group1,group2,x,0.0346952,1
+JW7805_E_resinosa_Plate2,resinosa,Bolivia,-19.14611111,-65.32694444,2900,group1,deme1,group1,group2,x,0.0966278,1
+FZ128_E_discolor_Plate2,discolor,Bolivia,5.89,-73.06,3081,group1,deme2,group1,group3,,0.0797665,1
+FZ83_E_discolor_Plate2,discolor,Colombia,4.955555556,-74.16388889,2776,group1,deme2,group1,group3,x,0.0927367,1
+FZ203_E_paniculata_Plate2,paniculata,Colombia,-13.18172222,-71.59766667,3186,group2,deme3,group2,group5,x,0.0813878,1
+FZ271_E_paniculata_Plate2,paniculata,Peru,-16.27555556,-67.79180556,2432,group2,deme3,group2,group5,x,0.0314527,1
+FZ245_E_paniculata_Plate1,paniculata,Bolivia,-5.368166667,-79.57561111,2045,group2,deme3,group2,group7,x,0.0590143,1
+FZ247_E_paniculata_Plate1,paniculata,Peru,-5.370194444,-79.57591667,2068,group2,deme3,group2,group7,x,0.05869,1
+AL360_E_reticulata_Plate3,reticulata,Bolivia,-19.81444444,-63.71944444,1540,group2,deme4,group2,group6,x,0.133917,1
+FZ300_E_reticulata_Plate2,reticulata,Colombia,-18.18083333,-63.84244444,1860,group2,deme4,group2,group6,x (leaves only),0.0476654,1
+FZ312_E_schreiteri_Plate2,schreiteri,Bolivia,-17.73838889,-64.95744444,2814,group3,deme5,group3,group4,x,0.139754,1
+FZ314_E_schreiteri_Plate2,schreiteri,Bolivia,-17.74319444,-64.97341667,2954,group3,deme5,group3,group4,x,0.0985733,1
+FZU10272_E_schreiteri_Plate2,schreiteri,Bolivia,-23.6483333,-64.9366666,1670,group3,deme5,group3,group4,x (leaves only),0.140078,1
+FZ164_E_resinosa_Plate2,resinosa,Bolivia,-13.48752778,-71.9905,3776,group1,deme1,group1,group1,x (leaves only),0.0625811,0
+FZ167_E_resinosa_Plate2,resinosa,Peru,-13.54269444,-71.94147222,3317,group1,deme1,group1,group1,x,0.0243191,0
+FZ180_E_resinosa_Plate2,resinosa,Peru,-13.16013889,-72.28025,3694,group1,deme1,group1,group1,x,0.124838,0
+FZ182_E_resinosa_Plate1,resinosa,Peru,-13.17722222,-72.28988889,3566,group1,deme1,group1,group1,x,0.0645266,0
+FZ205_E_resinosa_Plate2,resinosa,Peru,-13.21311111,-71.63272222,3383,group1,deme1,group1,group1,x,0.0282101,0
+FZ208_E_piurensis_Plate1,piurensis,Peru,-6.784972222,-77.93680556,2818,group1,deme1,group1,group1,x (leaves only),0.0330739,0
+FZ210_E_piurensis_Plate2,piurensis,Peru,-6.784972222,-77.93680556,2818,group1,deme1,group1,group1,x (leaves only),0.0492866,0
+FZ211_E_piurensis_Plate2,piurensis,Peru,-6.784972222,-77.93680556,2818,group1,deme1,group1,group1,x,0.0327497,0
+FZ236_E_piurensis_Plate2,piurensis,Peru,-7.328138889,-78.81075,2709,group1,deme1,group1,group1,x,0.057393,0
+FZ237_E_piurensis_Plate2,piurensis,Peru,-7.328138889,-78.81075,2709,group1,deme1,group1,group1,x (leaves only),0.101167,0
+FZ238_E_piurensis_Plate2,piurensis,Peru,-7.328138889,-78.81075,2709,group1,deme1,group1,group1,x (leaves only),0.0917639,0
+FZ277_E_resinosa_Plate1,resinosa,Peru,-17.79208333,-65.48758333,3352,group1,deme1,group1,group2,x (leaves only),0.0518807,0
+FZ315_E_resinosa_Plate2,resinosa,Bolivia,-17.75197222,-65.02422222,3024,group1,deme1,group1,group2,x (leaves only),0.0959792,0
+FZ129_E_discolor_Plate2,discolor,Colombia,5.9,-73.06,3177,group1,deme2,group1,group3,,0.135214,0
+FZ84_E_discolor_Plate2,discolor,Peru,4.984722222,-74.14694444,2776,group1,deme2,group1,group3,x,0.0885214,0
+FZ85_E_discolor_Plate2,discolor,Colombia,4.981388889,-74.20333333,3160,group1,deme2,group1,group3,,0.079118,0
+FZ200_E_paniculata_Plate2,paniculata,Argentina,-13.35391667,-71.61519444,3492,group2,deme3,group2,group5,x,0.0317769,0
+FZ202_E_paniculata_Plate2,paniculata,Peru,-13.18172222,-71.59766667,3186,group2,deme3,group2,group5,x (leaves only),0.139429,0
+FZ204_E_paniculata_Plate2,paniculata,Peru,-13.18172222,-71.59766667,3186,group2,deme3,group2,group5,x,0.0340467,0
+FZ266_E_paniculata_Plate2,paniculata,Peru,-16.3,-67.8,3020,group2,deme3,group2,group5,x (leaves only),0.0998703,0
+FZ267_E_paniculata_Plate2,paniculata,Bolivia,-16.30833333,-67.81366667,2984,group2,deme3,group2,group5,x,0.0616083,0
+FZ269_E_paniculata_Plate2,paniculata,Bolivia,-16.31508333,-67.81222222,2950,group2,deme3,group2,group5,x,0.114137,0
+FZ272_E_paniculata_Plate2,paniculata,Bolivia,-16.27638889,-67.79222222,2432,group2,deme3,group2,group5,x,0.0298314,0
+JW11465_E_paniculata_Plate2,paniculata,Bolivia,-17.79277778,-64.71555556,2200,group2,deme3,group2,group5,x,0.0531777,0
+FZ293_E_reticulata_Plate2,reticulata,Bolivia,-18.17491667,-63.83616667,1707,group2,deme4,group2,group6,x (leaves only),0.0953307,0
+FZ294_E_reticulata_Plate3,reticulata,Bolivia,-18.17619444,-63.83527778,1701,group2,deme4,group2,group6,x (leaves only),0.167964,0
+FZ295_E_reticulata_Plate1,reticulata,Bolivia,-18.17577778,-63.82022222,1885,group2,deme4,group2,group6,x (leaves only),0.056096,0
+FZ296_E_reticulata_Plate2,reticulata,Bolivia,-18.17641667,-63.82252778,1868,group2,deme4,group2,group6,x (leaves only),0.0392348,0
+FZ297_E_reticulata_Plate2,reticulata,Bolivia,-18.17875,-63.83052778,1701,group2,deme4,group2,group6,x (leaves only),0.795396,0
+FZ298_E_reticulata_Plate2,reticulata,Bolivia,-18.17841667,-63.82230556,1941,group2,deme4,group2,group6,x (leaves only),0.100519,0
+FZ301_E_reticulata_Plate2,reticulata,Bolivia,-18.18069444,-63.8425,1862,group2,deme4,group2,group6,x (leaves only),0.197795,0
+FZ283_E_schreiteri_Plate2,schreiteri,Bolivia,-17.83813889,-65.44902778,2876,group3,deme5,group3,group4,x (leaves only),0.22406,0
+FZ284_E_schreiteri_Plate2,schreiteri,Bolivia,-17.83833333,-65.44902778,2876,group3,deme5,group3,group4,x (leaves only),0.109274,0
+FZ286_E_schreiteri_Plate2,schreiteri,Bolivia,-17.84027778,-65.45,2757,group3,deme5,group3,group4,x (leaves only),0.149157,0
+FZ313_E_schreiteri_Plate1,schreiteri,Bolivia,-17.73861111,-64.9575,2885,group3,deme5,group3,group4,x,0.10441,0
+FZU10132A_E_schreiteri_Plate3,schreiteri,Bolivia,-24.8911111,-65.6755556,1625,group3,deme5,group3,group4,x (leaves only),0.258106,0
+FZU10403_E_schreiteri_Plate2,schreiteri,Argentina,-21.4586111,-64.3383333,2050,group3,deme5,group3,group4,x (leaves only),0.53048,0
+NL58_E_schreiteri_Plate3,schreiteri,Bolivia,-17.85777778,-64.62694444,1600,group3,deme5,group3,group4,x,0.563878,0

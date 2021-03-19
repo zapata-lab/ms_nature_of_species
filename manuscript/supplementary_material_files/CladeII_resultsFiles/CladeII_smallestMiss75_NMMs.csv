@@ -1,0 +1,16 @@
+,MolecularSampleName,SampleName,SpecimenID,libraryNumber,taxon,Country,Fst_political,Elevation,Latitude,Longitude,class.dim2.n0,NMDS1.dim2.n0,NMDS2.dim2.n0
+1,AN414_E_pendula_Plate3,AN414_E_pendula,AN414,Plate3,pendula,Colombia,Boyaca,2400,5.833333333,-72.96666667,3,0.098639946,0.238845845
+11,FZ186_E_herrerae_Plate1,FZ186_E_herrerae,FZ186,Plate1,herrerae,Peru,Cuzco,2768,-13.46777778,-72.49519444,2,-0.256393219,-0.007188301
+12,FZ187_E_herrerae_Plate3,FZ187_E_herrerae,FZ187,Plate3,herrerae,Peru,Cuzco,2794,-13.46630556,-72.49686111,2,-0.256344774,-0.007197387
+13,FZ188_E_herrerae_Plate3,FZ188_E_herrerae,FZ188,Plate3,herrerae,Peru,Cuzco,2805,-13.46625,-72.49680556,2,-0.256395283,-0.007214973
+14,FZ189_E_herrerae_Plate3,FZ189_E_herrerae,FZ189,Plate3,herrerae,Peru,Cuzco,2810,-13.46583333,-72.49677778,2,-0.256408316,-0.007164371
+15,FZ190_E_herrerae_Plate1,FZ190_E_herrerae,FZ190,Plate1,herrerae,Peru,Cuzco,2820,-13.46616667,-72.49694444,2,-0.256361742,-0.007254623
+2,FZ206_E_pendula_Plate1,FZ206_E_pendula,FZ206,Plate1,pendula,Peru,Cajamarca,3100,-6.872138889,-78.11163889,1,0.132499986,-0.078124576
+3,FZ207_E_pendula_Plate3,FZ207_E_pendula,FZ207,Plate3,pendula,Peru,Cajamarca,3019,-6.860111111,-78.11513889,1,0.132409769,-0.078120331
+4,FZ227_E_pendula_Plate3,FZ227_E_pendula,FZ227,Plate3,pendula,Peru,Amazonas,2306,-6.823444444,-77.95033333,1,0.13240787,-0.078131439
+5,FZ228_E_pendula_Plate3,FZ228_E_pendula,FZ228,Plate3,pendula,Peru,Cajamarca,2540,-7.266611111,-78.51205556,1,0.137447209,-0.041481646
+6,FZ230_E_pendula_Plate3,FZ230_E_pendula,FZ230,Plate3,pendula,Peru,Cajamarca,2540,-7.266611111,-78.51205556,1,0.13749467,-0.04145258
+7,FZ231_E_pendula_Plate3,FZ231_E_pendula,FZ231,Plate3,pendula,Peru,Cajamarca,2540,-7.266611111,-78.51205556,1,0.137471143,-0.041452305
+8,FZ235_E_pendula_Plate3,FZ235_E_pendula,FZ235,Plate3,pendula,Peru,Cajamarca,2007,-7.320944444,-78.80055556,1,0.137459544,-0.04145568
+9,FZ244_E_pendula_Plate3,FZ244_E_pendula,FZ244,Plate3,pendula,Peru,Cajamarca,2118,-7.072111111,-79.04830556,1,0.137514502,-0.041432566
+10,FZ90_E_pendula_Plate3,FZ90_E_pendula,FZ90,Plate3,pendula,Colombia,Cundinamarca,2660,4.591666667,-74,3,0.098558696,0.238824934
